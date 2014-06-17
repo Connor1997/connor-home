@@ -3,81 +3,106 @@
 
  <head>
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Connor's Page</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Connor's Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-		
-		
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function(){
-			var myButton = $(".my-button");
-			myButton.click(function(e){
-				console.log("I've been clicked!");
-  				$(".box").css("background-color","red");
-  			});
-  		});
-  		</script>
-  	<style type="text/css">
-		.box{
-			width:25px;
-			height:25px;
-			border:1px solid #000000;
-		}
-		/*put in http://i.imgur.com/zulNFBO.jpg for the url*/
-		body
-			{ 
-			background-image:url('');
-			background-repeat:no-repeat;
-			background-attachment:fixed;
-			}
-  	</style>
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+        
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            var myButton = $(".my-button");
+            myButton.click(function(e){
+                console.log("I've been clicked!");
+                $(".box").css("background-color","red");
+            });
+        });
+        </script>
+    <style type="text/css">
+        .content-wrapper{
+            text-align: center;
+        }
+        .box{
+            width:25px;
+            height:25px;
+            border:1px solid #000000;
+        }
+        /*put in http://i.imgur.com/zulNFBO.jpg for the url*/
+        body
+            { 
+            background-image:url('');
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            }
+        ul {
+            list-style: none;
+            margin-left: 0;
+        }
+    </style>
     </head>
 
   <body>
+<div class="content-wrapper">
+    <h1>My Home Page</h1>
+    <div class="row">
+      <div class="columns large-6 small-6">
+       <h2>Pokémon</h2>
+       <ul>
+         <li><a href="http://play.pokemonshowdown.com/" target="blank5">Showdown!</a></li>
+         <li><a href="http://www.serebii.net/pokedex-xy/" target="blank6">Serebii</a></li>
+         <li><a href="http://www.smogon.com/" target="blank7">Smogon</a></li>
+         <li><a href="http://sweepercalc.com/swc/" target="blank8">SweeperCalc</a></li>
+         <li><a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page" target="blank9">Bulbapedia</a></li>
+    </ul>
+      </div>
+      <div class="columns large-6 small-6">
+       <h2>Social & Media</h2>
+       <ul>
+         <li><a href="https://www.facebook.com/" target="blank10">Facebook</a></li>
+         <li><a href="https://mail.google.com/mail/u/0/#inbox" target="blank11">Gmail</a></li>
+         <li><a href="https://plus.google.com/u/0/" target="blank12">G+</a></li>
+         <li><a href="https://www.youtube.com/" target="blank13">Youtube</a></li>
+         <li><a href="https://us-mg6.mail.yahoo.com/neo/launch?.rand=11ag9q9l6d8eh" target="blank14">Yahoo!</a></li>
+  </ul>
+      </div>
+    </div>
 
-  	<h1>My Home Page</h1>
-  	<h2>Programming</h2>
-  	<ul>
-  		<li><a href="http://www.w3schools.com/html/html_colors.asp" target="blank">W3schools</a></li>
-  		<li><a href="http://jsfiddle.net/" target="blank2">jsfiddle</a></li>
-  		<li><a href="https://github.com/" target="blank3">github</a></li>
-  		<li><a href="https://jquery.com/" target="blank4">jQuery</a></li>
-  	</ul>
-  	<h2>Pokémon</h2>
-	<ul>
-  		<li><a href="http://play.pokemonshowdown.com/" target="blank5">Showdown!</a></li>
-  		<li><a href="http://www.serebii.net/pokedex-xy/" target="blank6">Serebii</a></li>
-  		<li><a href="http://www.smogon.com/" target="blank7">Smogon</a></li>
-  		<li><a href="http://sweepercalc.com/swc/" target="blank8">SweeperCalc</a></li>
-  		<li><a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page" target="blank9">Bulbapedia</a></li>
-  	</ul>
-  	<h2>Social & Media</h2>
-	<ul>
-  		<li><a href="https://www.facebook.com/" target="blank10">Facebook</a></li>
-  		<li><a href="https://mail.google.com/mail/u/0/#inbox" target="blank11">Gmail</a></li>
-  		<li><a href="https://plus.google.com/u/0/" target="blank12">G+</a></li>
-  		<li><a href="https://www.youtube.com/" target="blank13">Youtube</a></li>
-  		<li><a href="https://us-mg6.mail.yahoo.com/neo/launch?.rand=11ag9q9l6d8eh" target="blank14">Yahoo!</a></li>
-	</ul>
-	<h2>School</h2>
-	<ul>
-  		<li><a href="http://www.lincoln.k12.or.us/" target="blank15">LCSD Home</a></li>
-  		<li><a href="http://www.lincoln.k12.or.us/schools/newport_high/" target="blank16">Newport High</a></li>
-  		<li><a href="https://classroom.lblesd.k12.or.us/Pinnacle/025/Gradebook/Logon.aspx" target="blank17">Pinnacle</a></li>
-  		<li><a href="http://phet.colorado.edu/en/simulations/category/new" target="blank18">PHET Sims</a></li>
-  		<li><a href="http://www.bibme.org/" target="blank19">Bibliography</a></li>
-  		<li><a href="https://owl.english.purdue.edu/" target="blank20">OWL</a></li>
-	</ul>
-  <h2>JavaScript example</h2>
-  <div>
-  	<div class='box'></div>
-  	<button class="my-button">Press Me</button>
-  </div>
+    <div class="row">
+      <div class="columns large-6 small-6">
+  <h2>School</h2>
+  <ul>
+      <li><a href="http://www.lincoln.k12.or.us/" target="blank15">LCSD Home</a></li>
+      <li><a href="http://www.lincoln.k12.or.us/schools/newport_high/" target="blank16">Newport High</a></li>
+      <li><a href="https://classroom.lblesd.k12.or.us/Pinnacle/025/Gradebook/Logon.aspx" target="blank17">Pinnacle</a></li>
+      <li><a href="http://phet.colorado.edu/en/simulations/category/new" target="blank18">PHET Sims</a></li>
+      <li><a href="http://www.bibme.org/" target="blank19">Bibliography</a></li>
+      <li><a href="https://owl.english.purdue.edu/" target="blank20">OWL</a></li>
+  </ul>
+      </div>
+      <div class="columns large-6 small-6">
+          <h2>Programming</h2>
+    <ul>
+      <li><a href="http://www.w3schools.com/html/html_colors.asp" target="blank">W3schools</a></li>
+      <li><a href="http://jsfiddle.net/" target="blank2">jsfiddle</a></li>
+      <li><a href="https://github.com/" target="blank3">github</a></li>
+      <li><a href="https://jquery.com/" target="blank4">jQuery</a></li>
+    </ul>
+      </div>
+    </div>
+
+
+
+
+</div><!-- end class="content-wrapper" -->
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
